@@ -1,55 +1,65 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# FiveM Weather Menu  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful client-side weather and time control menu originally developed for Calsky State Roleplay. This menu allows players to dynamically control weather, time, wind, and blackout settings with smooth transitions and performance optimizations.  
 
-Currently, two official plugins are available:
+## 🌟 Features  
+✅ Dynamic weather control  
+✅ Time management with freeze option  
+✅ Wind speed and direction adjustments  
+✅ Blackout functionality  
+✅ Smooth weather transitions  
+✅ Optimized for performance  
+✅ Client-side only (changes are not synced between players)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Built With  
+- **React** (for UI)  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **Vite**  
+- **Lucide Icons**  
+- **ox_lib notifications**  
+- **Lua**  
 
-## Expanding the ESLint configuration
+## 📥 Installation  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Download** the latest release.  
+2. **Extract** it to your FiveM `resources` folder.  
+3. **Ensure dependencies** in your `server.cfg` in this order:  
 
-- Configure the top-level `parserOptions` property like this:
+   ```ini
+   ensure ox_lib
+   ensure weather-menu
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### ⚠️ Dependencies  
+- **ox_lib** (Required for notifications)  
+
+## 🔑 Permissions  
+
+This script uses **ACE permissions** for command access, which can be enabled or disabled in the config.  
+
+For restricted access (e.g., donators only), add this to your `server.cfg`:  
+
+```ini
+add_ace group.donator command.weather allow
+add_principal identifier.steam:XXXXXXXXXXXXX group.donator
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🎮 Usage  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Command:** `/weather`  
+- **Menu Controls:**  
+  - Change **weather types**  
+  - Adjust **time settings**  
+  - Configure **wind parameters**  
+  - Toggle **blackout mode**  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# fivem-weather-menu
-FiveM Weather &amp; Time Control Menu featuring dynamic weather control, time management, wind controls, and blackout functionality. Built with React + TypeScript, Tailwind CSS, Lucide Icons, and ox_lib notifications. (Client side only)
->>>>>>> 64caedd2e9e9ead840f842252bdc7e410abeb65d
+## 📜 Credits  
+
+- **UI & Frontend Development** (React, TypeScript, Tailwind CSS, Vite) by **LuxLife** *(251201582102872067)*  
+- **Lua codebase** partially adapted from **[Renewed-Scripts/Renewed-Weathersync](https://github.com/Renewed-Scripts/Renewed-Weathersync)**  
+- **Weather sync functionality** inspired by **Renewed-Weathersync**  
+
+## 📄 License & Attribution  
+
+This resource contains Lua code adapted from **[Renewed-Scripts/Renewed-Weathersync](https://github.com/Renewed-Scripts/Renewed-Weathersync)**. All credit for the original Lua implementation goes to them. If you use or modify this resource, please ensure proper attribution to both projects.  
