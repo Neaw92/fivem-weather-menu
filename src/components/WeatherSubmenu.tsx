@@ -20,8 +20,7 @@ const weatherOptions = [
     { weatherId: 'BLIZZARD', weatherName: 'Blizzard', icon: Snowflake },
     { weatherId: 'SNOW', weatherName: 'Snow', icon: Snowflake },
     { weatherId: 'SNOWLIGHT', weatherName: 'Snow (Light)', icon: Snowflake },
-    { weatherId: 'HALLOWEEN', weatherName: 'Halloween', icon: Ghost },
-    { weatherId: 'XMAS', weatherName: 'Christmas', icon: Snowflake }
+    { weatherId: 'HALLOWEEN', weatherName: 'Halloween', icon: Ghost }
 ]
 
 export const WeatherSubmenu = ({ onBack, onWeatherUpdate }: WeatherSubmenuProps) => {
