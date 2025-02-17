@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +49,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# fivem-weather-menu
+FiveM Weather &amp; Time Control Menu featuring dynamic weather control, time management, wind controls, and blackout functionality. Built with React + TypeScript, Tailwind CSS, Lucide Icons, and ox_lib notifications. (Client side only)
+>>>>>>> 64caedd2e9e9ead840f842252bdc7e410abeb65d
