@@ -66,6 +66,8 @@ This resource contains Lua code adapted from **[Renewed-Scripts/Renewed-Weathers
 
 
 
+If you need assistance with this script, you can add me on Discord at `luxlife` or join our Discord server and submit a general support ticket: [https://discord.gg/Mk5buvyBFb](https://discord.gg/Mk5buvyBFb).
+
 ![Screenshot 2025-02-17 053813](https://github.com/user-attachments/assets/f380b775-36f0-4077-8992-1552e82daf76)
 ![Screenshot 2025-02-17 053748](https://github.com/user-attachments/assets/bdc536b0-9f0c-4f7f-bff9-d6e0d7596c9b)
 ![Screenshot 2025-02-17 053731](https://github.com/user-attachments/assets/05f41a55-46d1-4766-bd04-eb3e4a10abf9)
